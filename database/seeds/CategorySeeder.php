@@ -44,6 +44,18 @@ class CategorySeeder extends Seeder
                 'name' => 'Category 5',
                 'created_at' => \Illuminate\Support\Carbon::now()->addDays(-3)->format('Y-m-d H:i:s'),
                 'updated_at' => \Illuminate\Support\Carbon::now()->addDays(-2)->format('Y-m-d H:i:s')
+            ],
+            [
+                'id' => 6,
+                'name' => 'Category 6',
+                'created_at' => \Illuminate\Support\Carbon::now()->addDays(-3)->format('Y-m-d H:i:s'),
+                'updated_at' => \Illuminate\Support\Carbon::now()->addDays(-2)->format('Y-m-d H:i:s')
+            ],
+            [
+                'id' => 7,
+                'name' => 'Category 7',
+                'created_at' => \Illuminate\Support\Carbon::now()->addDays(-3)->format('Y-m-d H:i:s'),
+                'updated_at' => \Illuminate\Support\Carbon::now()->addDays(-2)->format('Y-m-d H:i:s')
             ]
         ]);
         \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 1');
