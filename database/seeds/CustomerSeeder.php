@@ -53,6 +53,14 @@ class CustomerSeeder extends Seeder
                 'email' => 've@gmail.com',
                 'created_at' => \Illuminate\Support\Carbon::now()->addDays(-3)->format('Y-m-d H:i:s'),
                 'updated_at' => \Illuminate\Support\Carbon::now()->addDays(-2)->format('Y-m-d H:i:s')
+            ],
+            [
+                'id' => 6,
+                'identity_number' => '012349',
+                'full_name' => 'Xuan Nay Tuan Ve',
+                'email' => 've@gmail.com',
+                'created_at' => \Illuminate\Support\Carbon::now()->addDays(-3)->format('Y-m-d H:i:s'),
+                'updated_at' => \Illuminate\Support\Carbon::now()->addDays(-2)->format('Y-m-d H:i:s')
             ]
         ]);
         \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 1');
