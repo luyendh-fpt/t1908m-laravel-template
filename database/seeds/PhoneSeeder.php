@@ -53,6 +53,14 @@ class PhoneSeeder extends Seeder
                 'customer_id' => 1,
                 'created_at' => \Illuminate\Support\Carbon::now()->addDays(-3)->format('Y-m-d H:i:s'),
                 'updated_at' => \Illuminate\Support\Carbon::now()->addDays(-2)->format('Y-m-d H:i:s')
+            ],
+            [
+                'id' => 6,
+                'name' => 'Blackberry N101',
+                'phone_number' => '091233226',
+                'customer_id' => 1,
+                'created_at' => \Illuminate\Support\Carbon::now()->addDays(-3)->format('Y-m-d H:i:s'),
+                'updated_at' => \Illuminate\Support\Carbon::now()->addDays(-2)->format('Y-m-d H:i:s')
             ]
         ]);
         \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 1');
